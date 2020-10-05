@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    description: "Personal page of John Doe",
-    locale: "en",
-    title: "John Doe",
-  },
+		description: "Senior Software Engineer",
+		locale: "en",
+		title: "Vijay Rangan",
+	},
   plugins: [
     {
       resolve: "@wkocjan/gatsby-theme-intro",
       options: {
         basePath: "/",
         contentPath: "content/",
-        showThemeLogo: true,
-        theme: "classic",
+        showThemeLogo: false,
+        theme: "dark-blue",
       },
     },
   ],
