@@ -7,7 +7,8 @@
   location: Bangalore, India
   relocation: true
   company: ThoughtWorks
-  for_hire: true
+  for_hire: false
+  for_consultation: true
   focus: Software Architecture, System Design, TDD, Microservices
   focus_url: https://vijayrangan.com
   about: |

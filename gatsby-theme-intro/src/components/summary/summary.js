@@ -17,6 +17,12 @@ const Summary = ({ profile }) => (
           Available for hire
         </div>
       )}
+      {profile.for_consultation && (
+        <div className="font-header font-semibold text-xs uppercase pt-2">
+          <span className="inline-block w-2 h-2 rounded-full mr-1 bg-green-500"></span>
+          Available for consultation
+        </div>
+      )}
     </div>
     <div className="w-1/2 pl-4 lg:pl-12">
       <h5 className="font-header font-semibold text-front text-sm uppercase">
