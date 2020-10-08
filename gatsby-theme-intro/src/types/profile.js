@@ -14,6 +14,7 @@ export const ProfileType = {
   focus: string.isRequired,
   focus_url: string,
   for_hire: bool.isRequired,
+  for_consultation: bool.isRequired,
   image: shape({
     childImageSharp: object.isRequired,
     publicURL: string.isRequired,
